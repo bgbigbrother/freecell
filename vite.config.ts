@@ -3,7 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   root: '.',
-  publicDir: '../../public',
+  publicDir: 'public',
   server: {
     fs: {
       allow: ['../..'],
