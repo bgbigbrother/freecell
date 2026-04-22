@@ -94,7 +94,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.build.json && vite build",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run test && npm run build",
     "test": "vitest --run",
     "test:coverage": "vitest --run --coverage"
   },
