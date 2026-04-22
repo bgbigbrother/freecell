@@ -1,0 +1,37 @@
+/* ── FreeCell standalone dev styles ── */
+/* Loaded AFTER style.css so these overrides win */
+
+/* Dev banner */
+.dev-banner {
+  background: linear-gradient(90deg, #5b7fc7 0%, #7b9fe0 100%);
+  color: #fff;
+  text-align: center;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  height: 28px;
+  line-height: 20px;
+  flex-shrink: 0;
+}
+
+/* Adjust #app height to account for dev banner (28px) + site header (56px) */
+#app {
+  height: calc(100vh - 56px - 28px);
+  background: #14553a;
+}
+
+/* Slightly different felt color for freecell */
+body {
+  background: #14553a;
+}
+
+/* Minimal site-header stand-in */
+.site-header {
+  background: #1a2744;
+}
+
+.site-header__name {
+  font-size: 1.25rem;
+}
