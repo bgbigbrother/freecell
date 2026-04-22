@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { createDeck, shuffle } from './deck';
+import { createDeck, shuffle } from '../src/game/deck';
 
 describe('createDeck', () => {
   it('creates exactly 52 cards', () => {
